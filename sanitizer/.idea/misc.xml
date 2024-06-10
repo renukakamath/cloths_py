@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/sanitizer/app/src/main/res/layout/activity_addproduct.xml" value="0.1" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/sanitizer/app/src/main/res/layout/activity_ipsettings.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/sanitizer/app/src/main/res/layout/activity_login.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/sanitizer/app/src/main/res/layout/activity_main.xml" value="0.12409420289855072" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/sanitizer/app/src/main/res/layout/activity_makepayment.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/sanitizer/app/src/main/res/layout/activity_registration.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/sanitizer/app/src/main/res/layout/activity_userhome.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/sanitizer/app/src/main/res/layout/activity_viewbookings.xml" value="0.12409420289855072" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/sanitizer/app/src/main/res/layout/activity_viewproduct.xml" value="0.12409420289855072" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/sanitizer/app/src/main/res/layout/activity_viewwallet.xml" value="0.12409420289855072" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/sanitizer/app/src/main/res/layout/cust_images.xml" value="0.12409420289855072" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/sanitizer/app/src/main/res/layout/cust_images1.xml" value="0.12409420289855072" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/sanitizer/app/src/main/res/layout/custtext.xml" value="0.12409420289855072" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

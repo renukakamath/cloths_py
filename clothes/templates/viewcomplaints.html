@@ -1,0 +1,43 @@
+{% include 'admin_header.html'%}
+
+<center>
+	<h1 style="color: white">View Complaints</h1>
+	<table class="table" style="width: 500px;color: white">
+		<tr>
+			<th>Slno</th>
+			<th>Customer</th>
+			<th>Complaints</th>
+		
+		<th>Reply</th>
+		<th>Date </th>
+		
+		
+		
+
+		</tr>
+		{% for row in data['comp']%}
+		<tr>
+			<td>{{loop.index}}</td>
+			<td>{{row['fname']}}</td>
+			
+			<td>{{row['complaint']}}</td>
+				
+		<td>{{row['reply']}}</td>	
+			<td>{{row['date']}}</td>
+
+			{% if row['reply']=="pending"%}
+			<td><a class="btn btn-success" href="admin_sendreply?id={{row['complaint_id']}}">Send Reply</a></td>
+
+			{% endif %}
+			
+			
+			
+			
+
+		</tr>
+
+		{%endfor %}
+	</table>
+</center>
+
+{% include 'footer.html'%}

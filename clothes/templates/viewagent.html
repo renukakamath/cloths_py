@@ -1,0 +1,52 @@
+{% include 'admin_header.html'%}
+
+<center>
+	<h1 style="color: white">View Agent</h1>
+	<table class="table" style="width: 500px;color: white">
+		<tr>
+			<th>Slno</th>
+			<th>First Name</th>
+			<th>Last name</th>
+		
+		<th>Place</th>
+		<th>Phone </th>
+		<th>Email</th>
+	
+	
+		
+		
+
+		</tr>
+		{% for row in data['carbook']%}
+		<tr>
+			<td>{{loop.index}}</td>
+			<td>{{row['fname']}}</td>
+			
+			<td>{{row['lname']}}</td>
+				
+			
+			<td>{{row['place']}}</td>
+
+			<td>{{row['phone']}}</td>
+
+			<td>{{row['email']}}</td>
+				
+			
+			
+		
+		
+
+			{%if row['usertype']=="pending"%}
+			<td><a class="btn btn-success" href="?action=accept&aid={{row['login_id']}}">Accept</a></td>
+			<td><a class="btn btn-success" href="?action=reject&aid={{row['login_id']}}">Reject</a></td>
+			{% endif %}
+			
+			
+
+		</tr>
+
+		{%endfor %}
+	</table>
+</center>
+
+{% include 'footer.html'%}
